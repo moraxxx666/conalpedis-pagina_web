@@ -4,18 +4,27 @@
 
 
 <script>
-    // Carusel
-    $(document).ready(function() {
-        //Carusel
-        $('.slider').slider();
-
-
+    document.addEventListener('DOMContentLoaded', function() {
+        //Slider
+        var elems = document.querySelectorAll('.slider');
+        var instances = M.Slider.init(elems, {});
+        //Responsive menu
+        var elems2 = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems2, {});
+        //Dropdown menu
+        var elems3 = document.querySelectorAll('.dropdown-trigger');
+        var instances = M.Dropdown.init(elems3, {
+            coverTrigger: false
+        });
+        //AgrandarImagenes
+        var elems = document.querySelectorAll('.materialboxed');
+        var instances = M.Materialbox.init(elems, {});
+        //Collapsible
+        var elems = document.querySelectorAll('.collapsible');
+        var instances = M.Collapsible.init(elems, {});
     });
 </script>
-<script>
-    //NavBarResponsive
-    $('.sidenav').sidenav();
-</script>
+
 
 </body>
 
