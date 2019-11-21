@@ -22,6 +22,9 @@
         //Collapsible
         var elems = document.querySelectorAll('.collapsible');
         var instances = M.Collapsible.init(elems, {});
+        // Select forms
+        var elems = document.querySelectorAll('select');
+        var instances = M.FormSelect.init(elems, {});
     });
 </script>
 
