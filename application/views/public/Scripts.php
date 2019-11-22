@@ -27,6 +27,13 @@
         var instances = M.FormSelect.init(elems, {});
     });
 </script>
+<?php if ($this->session->flashdata('mensaje')) { ?>
+    <script>
+        M.toast({
+            html: '<?php echo $this->session->flashdata('mensaje'); ?>'
+        });
+    </script>
+<?php } ?>
 
 
 </body>
