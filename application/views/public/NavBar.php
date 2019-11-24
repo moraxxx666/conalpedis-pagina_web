@@ -17,9 +17,9 @@
                     <li><a href="<?php echo site_url('Gestion') ?>">Gestión</a></li>
                     <li><a class="dropdown-trigger t" href="#!" data-target="transparencia">Transparencia<i class="material-icons right">arrow_drop_down</i></a></li>
                     <li><a href="<?php echo site_url('Marco-Legal') ?>">Marco Legal</a></li>
-                    <li><a href="http://prensa.conalpedis.gob.bo">Prensa</a></li>
+                    <li><a href="<?php echo prensa ?>">Prensa</a></li>
                     <li><a class="dropdown-trigger " href="#!" data-target="contacto">Contacto<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li><a href="http://multimedia.conalpedis.gob.bo">Multimedia</a> </li>
+                    <li><a href="<?php echo multimedia ?>">Multimedia</a> </li>
                     <li><a class="dropdown-trigger " href="#!" data-target="discuentos">DISCUENTOS<i class="material-icons right">arrow_drop_down</i></a></li>
                 </ul>
             </div>
@@ -30,9 +30,9 @@
             <li><a href="<?php echo site_url('Gestion') ?>">Gestión</a></li>
             <li><a class="dropdown-trigger t" href="#!" data-target="transparencia1">Transparencia<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a href="<?php echo site_url('Marco-Legal') ?>">Marco Legal</a></li>
-            <li><a href="http://prensa.conalpedis.gob.bo">Prensa</a></li>
+            <li><a href="<?php echo prensa ?>">Prensa</a></li>
             <li><a class="dropdown-trigger " href="#!" data-target="contacto1">Contacto<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a href="http://multimedia.conalpedis.gob.bo">Multimedia</a> </li>
+            <li><a href="<?php echo multimedia ?>">Multimedia</a> </li>
             <li><a class="dropdown-trigger " href="#!" data-target="discuentos1">DISCUENTOS<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
 

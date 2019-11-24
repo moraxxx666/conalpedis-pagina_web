@@ -15,14 +15,15 @@
         });
     </script>
 <?php } ?>
-<script >
-    var select= document.querySelectorAll('select');
-    M.FormSelect.init(select,{});
+<script>
+    var select = document.querySelectorAll('select');
+    M.FormSelect.init(select, {});
 </script>
 <script>
     let media = document.querySelectorAll('.materialboxed');
-    M.Materialbox.init(media,{});
+    M.Materialbox.init(media, {});
 </script>
+
 
 </body>
 

@@ -21,14 +21,14 @@
             <a class="modal-close waves-effect waves-green btn-flat">Agree</a>
         </div>
     </div>
-    <nav>
+    <nav style="background:#272a5b">
         <div class="nav-wrapper container">
             <a href="/" class="brand-logo">ADMINISTRADOR</a>
 
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li>
-                   <a href=" <?php echo base_url()?>Administrador/Mensajes">Mensajes</a>
+                    <a href=" <?php echo base_url() ?>Administrador/Mensajes">Mensajes</a>
                 </li>
                 <li>
                     <form action="/Administrador/logout" method="POST">
@@ -40,8 +40,15 @@
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-        
-        <li><a class="waves-effect waves-light modal-trigger" href="#LoginModal">Cerrar Sesión</a></li>
+
+        <li>
+            <a href=" <?php echo base_url() ?>Administrador/Mensajes">Mensajes</a>
+        </li>
+        <li>
+            <form action="/Administrador/logout" method="POST">
+                <button type="submit" class="btn blue">Cerrar Sesión</button>
+            </form>
+        </li>
     </ul>
 
 </header>

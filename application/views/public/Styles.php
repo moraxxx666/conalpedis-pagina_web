@@ -24,8 +24,8 @@
     .cuad1 img {
         display: block;
         margin-top: 35px;
-        
-        
+
+
     }
 
     .dropdown-content li {
@@ -52,6 +52,16 @@
 
     .item {
         margin-top: 20px;
+    }
+
+    .card-content {
+        background: rgba(0, 0, 0, .5);
+        color: white;
+    }
+
+    .card-content:hover {
+        background: rgba(0, 0, 0, 0);
+        color: white;
     }
 </style>
 </head>
